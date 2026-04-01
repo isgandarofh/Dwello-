@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "montserrat";
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./assets/font/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./assets/font/Montserrat-SemiBold.ttf);
+    font-weight: 600 ;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./assets/font/Montserrat-Medium.ttf);
+    font-weight: 500 ;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./assets/font/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./assets/font/Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./assets/font/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
