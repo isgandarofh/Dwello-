@@ -1,6 +1,5 @@
 button{
     background-color: #2B1B12;
-    padding: 12px 30px;
     color: white;
     font-size: 16px;
     border-radius: 8px;
@@ -9,6 +8,9 @@ button{
     cursor: pointer;
     font-weight: 600;
     transition: 0.4s;
+    padding: 12px 30px;
+    width: fit-content;
+
 }
 
 button:hover{

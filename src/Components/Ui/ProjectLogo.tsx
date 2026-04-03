@@ -1,4 +1,4 @@
-import Logo from "../../public/img/dwello-logo.svg"
+import Logo from "../../../public/img/dwello-logo.svg"
 export default function ProjectLogo() {
   return (
     <div>
