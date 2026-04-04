@@ -8,15 +8,12 @@ button{
     cursor: pointer;
     font-weight: 600;
     transition: 0.4s;
-    padding: 15px 30px;
+    padding: 15px 45px;
     width: max-content;
-    
-
 }
 
 button:hover{
     background-color: transparent;
     border: 1px solid #2B1B12;
     color: #2B1B12;
-    
 }

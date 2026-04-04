@@ -1,0 +1,45 @@
+.about-section {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-top: 300px;
+  padding-bottom: 50px;
+}
+
+.about-section-text h2 {
+  color: #2b1b12;
+  font-size: 40px;
+  font-weight: 800;
+  max-width: 450px;
+}
+
+.about-section-text p {
+  color: #4f3527;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 30px;
+  max-width: 520px;
+}
+
+
+.about-section-text-statistic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about-statistic span {
+  font-family: "montserrat";
+  font-size: 50px;
+  color: #4f3527;
+  font-weight: 700;
+}
+
+.about-statistic p {
+  font-family: "montserrat";
+  font-size: 15px;
+  color: #4f3527;
+  font-weight: 600;
+  padding: 0;
+  width: auto;
+}
