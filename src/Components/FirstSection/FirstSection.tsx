@@ -1,5 +1,6 @@
 import "../../css/first-section.css"
 import FirstSectionImg from "./FirstSectionImg"
+import FirstSectionSearch from "./FirstSectionSearch"
 import FirstSectionText from "./FirstSectionText"
 export default function FirstSection() {
     return (
@@ -8,7 +9,7 @@ export default function FirstSection() {
                 <FirstSectionText />
                 <FirstSectionImg/>
             </div>
-
+            <FirstSectionSearch/>
         </div>
     )
 }

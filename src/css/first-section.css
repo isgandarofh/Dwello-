@@ -1,6 +1,7 @@
 .first-section{
     background-color: #FEF7F2;
     padding-top: 100px;
+    position: relative;
 }
 
 .first-section .container{
