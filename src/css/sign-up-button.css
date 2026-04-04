@@ -8,8 +8,8 @@ button{
     cursor: pointer;
     font-weight: 600;
     transition: 0.4s;
-    padding: 12px 30px;
-    width: fit-content;
+    padding: 15px 30px;
+    width: max-content;
     
 
 }
