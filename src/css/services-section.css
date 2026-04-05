@@ -21,7 +21,9 @@
 }
 
 .services-cards{
-    margin-top: 60px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .services-card {
@@ -31,6 +33,7 @@
   border-radius: 15px;
   padding-left: 25px;
   padding-top: 30px;
+  padding: 30px 20px 0px 25px;
 }
 
 .services-card h5{

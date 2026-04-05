@@ -6,14 +6,11 @@ import ServicesSection from "./Components/ServicesSection/ServicesSection";
 
 export default function App() {
   return (
-    <Router>
+    <>
       <Header />
-      <FirstSection/>
-      <AboutSection/>
-      <ServicesSection/>
-      <Routes>
-        <Route />
-      </Routes>
-    </Router>
+      <FirstSection />
+      <AboutSection />
+      <ServicesSection />
+    </>
   )
 }

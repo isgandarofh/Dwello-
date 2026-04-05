@@ -4,10 +4,10 @@ export default function HeaderMenu() {
   return (
     <div className="header-menu">
         <ul>
-            <li><Link to={''}>Home</Link></li>
-            <li><Link to={''}>Service</Link></li>
-            <li><Link to={''}>Agents</Link></li>
-            <li><Link to={''}>Contact</Link></li>
+            <li><a href={''}>Home</a></li>
+            <li><a href={''}>Service</a></li>
+            <li><a href={''}>Agents</a></li>
+            <li><a href={''}>Contact</a></li>
         </ul>
     </div>
   )

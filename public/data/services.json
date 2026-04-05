@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 0,
+        "img" : "/icon/location-icon(2).png",
+        "title" : "Expert Guidance",
+        "subtitle" : "Benefit from our team's seasoned expertise for a smooth buying experience"
+    },
+    {
+        "id" : 1,
+        "img" : "/icon/personal-icon.png",
+        "title" : "Personalized Service",
+        "subtitle" : "Our services adapt to your unique needs, making your journey stress-free"
+    },
+    {
+        "id" : 2,
+        "img" : "/icon/document-icon.png",
+        "title" : "Transparent Process",
+        "subtitle" : "Stay informed with our clear and honest approach to buying your home"
+    },
+    {
+        "id" : 3,
+        "img" : "/icon/support-icon.png",
+        "title" : "Exceptional Support",
+        "subtitle" : "Providing peace of mind with our responsive and attentive customer service"
+    }
+
+]
