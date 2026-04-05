@@ -1,0 +1,79 @@
+.agent-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fef7f2;
+}
+
+.agent-section-title h3 {
+  font-size: 40px;
+  text-align: center;
+}
+.agent-cards {
+  padding-top: 40px;
+}
+
+.agent-card {
+  background-color: #ddc7bb;
+  max-width: 400px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.agent-card-img img {
+  max-width: 400px;
+}
+
+.agent-card-text {
+  padding: 20px 20px 35px 20px;
+  position: relative;
+}
+
+.user-img img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.user-text h5 {
+  font-size: 22px;
+  color: #2b1b12;
+  font-weight: 700;
+}
+
+.user-text h6 {
+  padding-top: 8px;
+  font-size: 17px;
+  font-weight: 6300;
+}
+
+.agent-card-user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.agent-comment p {
+  padding-top: 20px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.agent-rating {
+  padding: 5px;
+  border-radius: 5px;
+  max-width: max-content;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.agent-rating img {
+  width: 18px;
+}
+
+.agent-rating h6 {
+  font-size: 15px;
+}
