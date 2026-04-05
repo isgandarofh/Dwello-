@@ -1,0 +1,85 @@
+.residence-card-section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.residence-card-section h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.residence-cards{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.residence-card {
+  background-color: #ddc7bb;
+  border-radius: 18px;
+  margin-top: 40px;
+  max-width: 350px;
+  overflow: hidden;
+}
+
+.residence-card-img img {
+  max-width: 351px;
+}
+
+.residence-card-text {
+  padding: 12px 0px 20px 20px;
+  position: relative;
+}
+
+.card-title {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card-title p {
+  color: #2b1b12;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.card-info {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.room-info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.card-info .room-info img {
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.card-info .room-info p {
+  font-size: 15px;
+  font-weight: 600;
+  width: max-content;
+}
+
+.residence-card-text .card-price p{
+    width: max-content;
+    font-size: 20px;
+    position: absolute;
+    bottom: 26px;
+    right: 25px;
+}
+
+.residence-card-text button{
+    margin-top: 25px;
+    padding: 0px;
+    font-size: 13px;
+    width: 90px;
+    height: 38px;
+}

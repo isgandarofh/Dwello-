@@ -3,8 +3,6 @@ import ServicesCard from "./ServicesCard";
 
 export default function ServicesCards() {
   const { servicesContentArr } = useSelector((state: any) => state.services)
-
-  console.log(servicesContentArr);
   return (
     <div className="services-cards">
       {

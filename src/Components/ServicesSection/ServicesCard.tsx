@@ -1,4 +1,3 @@
-import locationIcon from "../../../public/icon/location-icon(2).png"
 
 export default function ServicesCard({img, title , subtitle} : any) {
     

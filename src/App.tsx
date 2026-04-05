@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header";
 import FirstSection from "./Components/FirstSection/FirstSection";
 import AboutSection from "./Components/AboutSection/AboutSection";
 import ServicesSection from "./Components/ServicesSection/ServicesSection";
+import ResidenceCardSection from "./Components/ResidencesCardSection/ResidenceCardSection";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <FirstSection />
       <AboutSection />
       <ServicesSection />
+      <ResidenceCardSection/>
     </>
   )
 }

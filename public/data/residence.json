@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 0,
+        "img" : "/img/residence1.png",
+        "location" : "San Francisco, California",
+        "room" : "4",
+        "ft" : "3500",
+        "price" : "2,500,000"
+    },
+    {
+        "id" : 1,
+        "img" : "/img/residence2.png",
+        "location" : "Beverly Hills, California",
+        "room" : "3",
+        "ft" : "1,500",
+        "price" : "850,000"
+    },
+    {
+        "id" : 2,
+        "img" : "/img/residence3.png",
+        "location" : "Palo Alto, California",
+        "room" : "6",
+        "ft" : "4,000",
+        "price" : "3,700,000"
+    }
+
+]
