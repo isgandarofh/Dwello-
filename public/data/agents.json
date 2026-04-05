@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "image": "/img/agent-home-img1.png",
+    "photo": "/img/agent-user-img1.png",
+    "name": "Sarah Nguyen",
+    "city": "San Francisco",
+    "rating": "5.0",
+    "comment": "Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched."
+  },
+  {
+    "id": 1,
+    "image": "/img/agent-home-img2.png",
+    "photo": "/img/agent-user-img2.png",
+    "name": "Michael Rodriguez",
+    "city": "San Diego",
+    "rating": "4.5",
+    "comment": "I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!"
+  },
+  {
+    "id": 2,
+    "image": "/img/agent-home-img3.png",
+    "photo": "/img/agent-user-img3.png",
+    "name": "Emily Johnson",
+    "city": "Los Angeles",
+    "rating": "5.0",
+    "comment": "Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!"
+  }
+]

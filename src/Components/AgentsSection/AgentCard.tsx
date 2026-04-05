@@ -1,30 +1,39 @@
-import agentHome from "../../../public/img/agent-home-img1.png"
-import agentImg1 from "../../../public/img/agent-user-img1.png"
 import starIcon from "../../../public/icon/star-icon.png"
-export default function AgentCard() {
+
+type Props = {
+  image: string,
+  photo: string,
+  name: string,
+  city: string,
+  rating: string,
+  comment: string
+
+}
+
+export default function AgentCard({ image, photo, name, city, rating, comment }: Props) {
   return (
     <div className="agent-card">
       <div className="agent-card-img">
-        <img src={agentHome} alt="" />
+        <img src={image} alt="" />
       </div>
       <div className="agent-card-text">
 
         <div className="agent-card-user">
           <div className="user-img">
-            <img src={agentImg1} alt="" />
+            <img src={photo} alt="" />
           </div>
           <div className="user-text">
-            <h5>Sarah Nguyen</h5>
-            <h6>San Francisco</h6>
+            <h5>{name}</h5>
+            <h6>{city}</h6>
           </div>
         </div>
         <div className="agent-rating">
           <img src={starIcon} alt="" />
-          <h6>5.0</h6>
+          <h6>{rating}</h6>
         </div>
 
         <div className="agent-comment">
-          <p>Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.</p>
+          <p>{comment}</p>
         </div>
       </div>
     </div>
