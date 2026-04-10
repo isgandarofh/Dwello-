@@ -1,6 +1,11 @@
 import "../../css/sign-up-button.css"
-export default function SignUpButton() {
+type Props ={
+    text?:string
+}
+export default function SignUpButton({text}:Props) {
     return (
-        <button>Sign up</button>
+        <button>{
+                text? text : "Sign up"
+            }</button>
     )
 }

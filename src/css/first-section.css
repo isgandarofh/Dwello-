@@ -18,14 +18,14 @@
     row-gap: 50px;
 }
 
-h1{
+.first-section-text h1{
     font-weight: 800;
     color: #2B1B12;
     font-size: 55px;
     margin-top: 50px;
 }
 
-p{
+.first-section-text p{
     color: #4F3527;
     font-weight: 700;
     font-size: 18px;

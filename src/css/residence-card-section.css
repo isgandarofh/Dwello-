@@ -8,10 +8,10 @@
   text-align: center;
 }
 
-.residence-cards{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
+.residence-cards {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .residence-card {
@@ -38,9 +38,9 @@
 }
 
 .card-title p {
-  color: #2b1b12;
+  color: #4f3527;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .card-info {
@@ -68,18 +68,24 @@
   width: max-content;
 }
 
-.residence-card-text .card-price p{
-    width: max-content;
-    font-size: 20px;
-    position: absolute;
-    bottom: 26px;
-    right: 25px;
+.residence-card-text .card-price p {
+  width: max-content;
+  font-size: 20px;
+  position: absolute;
+  bottom: 26px;
+  right: 25px;
 }
 
-.residence-card-text button{
-    margin-top: 25px;
-    padding: 0px;
-    font-size: 13px;
-    width: 90px;
-    height: 38px;
+.residence-card-text button {
+  margin-top: 25px;
+  padding: 0px;
+  font-size: 13px;
+  width: 90px;
+  height: 38px;
+}
+
+.card-price p {
+  color: #4f3527;
+  font-weight: 700;
+  font-size: 18px;
 }
