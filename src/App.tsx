@@ -6,6 +6,7 @@ import ServicesSection from "./Components/ServicesSection/ServicesSection";
 import ResidenceCardSection from "./Components/ResidencesCardSection/ResidenceCardSection";
 import AgentSection from "./Components/AgentsSection/AgentSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
+import Footer from "./Components/Footer/Footer";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <ResidenceCardSection/>
       <AgentSection/>
       <ContactSection/>
+      <Footer/>
     </>
   )
 }

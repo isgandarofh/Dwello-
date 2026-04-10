@@ -1,0 +1,43 @@
+footer{
+    background-color: #DDC7BB;
+    padding: 80px 0px 120px 0px;
+}
+
+
+footer .container{
+    display: flex;
+    gap: 120px;
+}
+
+.footer-left-text p{
+    padding-top: 10px;
+    max-width: 220px;
+    font-weight: 600;
+    color: #2B1B12;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 100px;
+}
+
+
+.footer-menu-text ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-menu-text ul li h6{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2B1B12;
+    padding-bottom: 8px;
+}
+
+.footer-menu-text ul li p{
+    color: #4F3527;
+    font-size: 20px;
+    font-weight: 600;
+}
