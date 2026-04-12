@@ -36,8 +36,18 @@ footer .container{
     padding-bottom: 8px;
 }
 
-.footer-menu-text ul li p{
+.footer-menu-text ul li a{
     color: #4F3527;
     font-size: 20px;
     font-weight: 600;
+}
+
+.footer-social-media li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social-media li img{
+    width: 20px;
 }
