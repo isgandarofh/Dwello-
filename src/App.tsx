@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import FirstSection from "./Components/FirstSection/FirstSection";
 import AboutSection from "./Components/AboutSection/AboutSection";
@@ -15,10 +14,10 @@ export default function App() {
       <FirstSection />
       <AboutSection />
       <ServicesSection />
-      <ResidenceCardSection/>
-      <AgentSection/>
-      <ContactSection/>
-      <Footer/>
+      <ResidenceCardSection />
+      <AgentSection />
+      <ContactSection />
+      <Footer />
     </>
   )
 }

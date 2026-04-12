@@ -1,4 +1,3 @@
-import Residence1 from "../../../public/img/residence1.png"
 import locationIcon from "../../../public/icon/location-icon-brown.png"
 import bedIcon from "../../../public/icon/bed-icon.png"
 import sizeIcon from "../../../public/icon/size-icon.png"
